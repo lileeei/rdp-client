@@ -1,0 +1,18 @@
+[package]
+name = "rdp-client"
+version = "0.1.0"
+edition = "2024"
+authors = ["lileeei <lileiwell1993@gmail.com>"]
+description = "A Remote Debug Protocol client implementation"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1.0", features = ["full"] }
+log = "0.4"
+env_logger = "0.10"
+anyhow = "1.0"
+thiserror = "1.0"
+async-trait = "0.1"
+futures = "0.3"
+crossbeam-channel = "0.5"
