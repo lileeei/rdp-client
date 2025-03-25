@@ -4,7 +4,7 @@
 > 
 > 本项目目前处于积极开发阶段，API和功能可能会发生重大变更。建议仅用于测试和学习目的，请谨慎用于生产环境。
 
-一个用Rust实现的远程调试协议客户端，支持与遵循Firefox DevTools Protocol的调试服务器进行通信。
+一个用Rust实现的远程调试协议客户端，支持与遵循Firefox DevTools Protocol的调试服务器进行通信。本项目参考了 [Servo](https://github.com/servo/servo) 浏览器引擎中的 devtools 实现，采用相同的 Actor 架构设计和消息传递机制。
 
 ## 功能特性
 
